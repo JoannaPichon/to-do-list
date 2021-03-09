@@ -1,0 +1,113 @@
+/* -- general --- */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+body {
+  
+}
+
+to-do-list {
+    display: block;
+    width: max-content;
+    margin: 20vh auto;
+}
+
+label {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+div {
+    width: 100%;
+    margin: 0 auto 25px;
+    background-color: #bdbdbd;
+    border-radius: 5px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    text-align: center;
+    list-style: none;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0;
+    background-color: #f9d6e3;
+    padding: 8px;
+}
+
+li span {
+    font-size: 1.5em ;
+    display: inline-block;
+    width: 65%;
+}
+
+.over {
+    text-decoration: line-through;
+    text-decoration-thickness: 3px ;
+}
+
+
+
+button {
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    background-color: #f9d6e3;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 3px;
+    margin: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 13%;
+
+}
+
+button:hover {
+    background-color: #e1c0cc;
+}
+
+[id^="btn"] {
+    background-color: #bdbdbd;
+  }
+
+
+[id^="btn"]:hover {
+    background-color: #ddd;
+}
+
+
+
+input {
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin: 8px;
+    width: 66%;
+    background-color: transparent;
+    text-align: center;
+}
+
+
+  
+  
+ 
+  
+  
+  
+  
+  
+  
